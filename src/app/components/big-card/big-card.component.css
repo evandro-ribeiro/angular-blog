@@ -1,7 +1,7 @@
 .container__big-card{
 
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
 
   width: 400px;
   height: 500px;
@@ -12,9 +12,12 @@
   justify-content: flex-start;
 }
 
-.big-card__title > h1  {
+.big-card__title > h2  {
   margin-top: 15px;
-  font-size: 20px;
+}
+
+.big-card__title > h2 > a:hover  {
+  color: lightblue;
 }
 
 .big-card__description{
@@ -28,4 +31,9 @@
 .big-card__photo > img{
   width: 100%;
   min-width: 400px;
+}
+
+.big-card__photo > img:hover{
+  transform: scale(1.1, 1.1);
+  transition: 1s;
 }

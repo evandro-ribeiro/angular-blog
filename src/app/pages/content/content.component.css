@@ -27,3 +27,18 @@
   margin-top: 20px;
   color: rgb(198, 197, 197);
 }
+
+.content__url > a{
+  font-size: 20px;
+  color: cornflowerblue;
+}
+
+.content__url{
+  margin-top: 20px;
+}
+
+.content__url > a:hover{
+  color: darkgoldenrod;
+  font-size: 25px;
+  transition: .5s;
+}

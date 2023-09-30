@@ -12,6 +12,7 @@ export class ContentComponent implements OnInit {
   contentTitle:string = ""
   contentDescription:string = ""
   private id:string | null = "0"
+  url:string = ""
 
   constructor(
     private route:ActivatedRoute
@@ -31,6 +32,7 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.url = result.url
   }
 
 }
