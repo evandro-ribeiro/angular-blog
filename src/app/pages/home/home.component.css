@@ -6,4 +6,23 @@
   justify-content: center;
 }
 
+.repos__list {
+  color: white;
+  margin: 3rem;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+  gap: 3rem;
+  justify-content: center;
+  background: linear-gradient(180deg, #57A6A1 0%, #240750 100%);
+  border-radius: 30px;
+  font-weight: bold;
+}
 
+.repos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
